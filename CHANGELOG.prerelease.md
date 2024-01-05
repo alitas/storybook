@@ -1,3 +1,30 @@
+## 8.0.0-alpha.7
+
+- Addon-Docs: Upgrade to MDX3 - [#25303](https://github.com/storybookjs/storybook/pull/25303), thanks [@yannbf](https://github.com/yannbf)!
+- CLI: Add Storyshots migration notice - [#25327](https://github.com/storybookjs/storybook/pull/25327), thanks [@yannbf](https://github.com/yannbf)!
+- CLI: Fix regex used in upgrade command - [#25284](https://github.com/storybookjs/storybook/pull/25284), thanks [@yannbf](https://github.com/yannbf)!
+- CLI: Remove --use-npm flag - [#25414](https://github.com/storybookjs/storybook/pull/25414), thanks [@yannbf](https://github.com/yannbf)!
+- Core: Remove unused warnOnLegacyHierarchySeparator type - [#25416](https://github.com/storybookjs/storybook/pull/25416), thanks [@yannbf](https://github.com/yannbf)!
+- Core: Remove vite plugins and drop Vite 3 support - [#25427](https://github.com/storybookjs/storybook/pull/25427), thanks [@kasperpeulen](https://github.com/kasperpeulen)!
+- Maintenance: Add comment to deprecation notice in Button component - [#25411](https://github.com/storybookjs/storybook/pull/25411), thanks [@yannbf](https://github.com/yannbf)!
+- UI: Fix about page layout - [#25396](https://github.com/storybookjs/storybook/pull/25396), thanks [@cdedreuille](https://github.com/cdedreuille)!
+- Viewport: Store viewport, rotation in globals - [#25423](https://github.com/storybookjs/storybook/pull/25423), thanks [@shilman](https://github.com/shilman)!
+- Vite: Fix Vite 5 CJS warnings - [#25005](https://github.com/storybookjs/storybook/pull/25005), thanks [@JReinhold](https://github.com/JReinhold)!
+
+## 8.0.0-alpha.6
+
+- NextJS: Autoconfigure public directory for new projects - [#25279](https://github.com/storybookjs/storybook/pull/25279), thanks [@shilman](https://github.com/shilman)!
+- Vite: Fix pre-transform error in Vite 5 - [#25329](https://github.com/storybookjs/storybook/pull/25329), thanks [@yannbf](https://github.com/yannbf)!
+- Vue3: Fix pnp by making compiler-core a dependency - [#25311](https://github.com/storybookjs/storybook/pull/25311), thanks [@shilman](https://github.com/shilman)!
+
+## 8.0.0-alpha.5
+
+- Core: Remove the `-s` flag from build & dev - [#25266](https://github.com/storybookjs/storybook/pull/25266), thanks [@ndelangen](https://github.com/ndelangen)!
+- Core: Skip no-framework error when ignorePreview=true - [#25286](https://github.com/storybookjs/storybook/pull/25286), thanks [@ndelangen](https://github.com/ndelangen)!
+- Core: Unique outputDir/cacheDir for each configDir - [#25264](https://github.com/storybookjs/storybook/pull/25264), thanks [@ndelangen](https://github.com/ndelangen)!
+- Dependencies: Semver dependency fixes - [#25283](https://github.com/storybookjs/storybook/pull/25283), thanks [@ndelangen](https://github.com/ndelangen)!
+- NextJS: Mock out `server-only` package for RSC - [#25263](https://github.com/storybookjs/storybook/pull/25263), thanks [@shilman](https://github.com/shilman)!
+
 ## 8.0.0-alpha.4
 
 - API: Remove stories.json support - [#25236](https://github.com/storybookjs/storybook/pull/25236), thanks [@shilman](https://github.com/shilman)!
