@@ -107,13 +107,7 @@ describe('PreviewWeb', () => {
       await preview.ready();
       await waitForRender();
 
-      expect(docsRoot.outerHTML).toMatchInlineSnapshot(`
-        <div>
-          <div>
-            INSIDE
-          </div>
-        </div>
-      `);
+      expect(docsRoot.outerHTML).toMatchInlineSnapshot(`"<div><div>INSIDE</div></div>"`);
     });
 
     // TODO @tmeasday please help fixing this test
