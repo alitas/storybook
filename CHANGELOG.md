@@ -1,3 +1,8 @@
+## 7.6.8
+
+- AutoTitle: Fix case-insensitive trailing duplicate - [#25452](https://github.com/storybookjs/storybook/pull/25452), thanks [@ksugawara61](https://github.com/ksugawara61)!
+- Storysource: Fix import error - [#25391](https://github.com/storybookjs/storybook/pull/25391), thanks [@unional](https://github.com/unional)!
+
 ## 7.6.7
 
 - Core: Skip no-framework error when ignorePreview=true - [#25286](https://github.com/storybookjs/storybook/pull/25286), thanks [@ndelangen](https://github.com/ndelangen)!
